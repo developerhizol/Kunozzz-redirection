@@ -3,7 +3,17 @@
     {
       "source": "/",
       "destination": "https://kunozzz.vercel.app",
-      "permanent": true
+      "statusCode": 301
+    },
+    {
+      "source": "/play/:id",
+      "destination": "https://kunozzz.vercel.app/play/:id",
+      "statusCode": 301
+    },
+    {
+      "source": "/trailer/:id",
+      "destination": "https://kunozzz.vercel.app/trailer/:id",
+      "statusCode": 301
     }
   ]
 }
