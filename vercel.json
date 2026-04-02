@@ -1,0 +1,34 @@
+{
+  "redirects": [
+    {
+      "source": "/film/:id",
+      "destination": "https://fliksbar.vercel.app/film/:id",
+      "permanent": true
+    },
+    {
+      "source": "/film/:id/",
+      "destination": "https://fliksbar.vercel.app/film/:id",
+      "permanent": true
+    },
+    {
+      "source": "/series/:id",
+      "destination": "https://fliksbar.vercel.app/series/:id",
+      "permanent": true
+    },
+    {
+      "source": "/series/:id/",
+      "destination": "https://fliksbar.vercel.app/series/:id",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "destination": "https://fliksbar.vercel.app/",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "destination": "https://fliksbar.vercel.app/:path*",
+      "permanent": true
+    }
+  ]
+}
