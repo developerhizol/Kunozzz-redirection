@@ -1,18 +1,8 @@
 {
   "redirects": [
     {
-      "source": "/",
-      "destination": "https://kunozzz.vercel.app",
-      "statusCode": 301
-    },
-    {
-      "source": "/play/:id",
-      "destination": "https://kunozzz.vercel.app/play/:id",
-      "statusCode": 301
-    },
-    {
-      "source": "/trailer/:id",
-      "destination": "https://kunozzz.vercel.app/trailer/:id",
+      "source": "/(.*)",
+      "destination": "https://kunozzz.vercel.app/$1",
       "statusCode": 301
     }
   ]
