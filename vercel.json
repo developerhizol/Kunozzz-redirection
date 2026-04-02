@@ -2,7 +2,7 @@
   "redirects": [
     {
       "source": "/(.*)",
-      "destination": "https://kunozzz.vercel.app/$1",
+      "destination": "https://kunozzz-fun.vercel.app/$1",
       "statusCode": 301
     }
   ]
