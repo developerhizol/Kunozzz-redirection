@@ -2,32 +2,32 @@
   "redirects": [
     {
       "source": "/film/:id",
-      "destination": "https://fliksbar.vercel.app/film/:id",
+      "destination": "https://kunozzz-bot.fun/film/:id",
       "permanent": true
     },
     {
       "source": "/film/:id/",
-      "destination": "https://fliksbar.vercel.app/film/:id",
+      "destination": "https://kunozzz-bot.fun/film/:id",
       "permanent": true
     },
     {
       "source": "/series/:id",
-      "destination": "https://fliksbar.vercel.app/series/:id",
+      "destination": "https://kunozzz-bot.fun/series/:id",
       "permanent": true
     },
     {
       "source": "/series/:id/",
-      "destination": "https://fliksbar.vercel.app/series/:id",
+      "destination": "https://kunozzz-bot.fun/series/:id",
       "permanent": true
     },
     {
       "source": "/",
-      "destination": "https://fliksbar.vercel.app/",
+      "destination": "https://kunozzz-bot.fun/",
       "permanent": true
     },
     {
       "source": "/:path*",
-      "destination": "https://fliksbar.vercel.app/:path*",
+      "destination": "https://kunozzz-bot.fun/:path*",
       "permanent": true
     }
   ]
