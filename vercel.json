@@ -2,32 +2,32 @@
   "redirects": [
     {
       "source": "/film/:id",
-      "destination": "https://kunozzz-bot.fun/film/:id",
+      "destination": "https://kunozzz.vercel.app/film/:id",
       "permanent": true
     },
     {
       "source": "/film/:id/",
-      "destination": "https://kunozzz-bot.fun/film/:id",
+      "destination": "https://kunozzz.vercel.app/film/:id",
       "permanent": true
     },
     {
       "source": "/series/:id",
-      "destination": "https://kunozzz-bot.fun/series/:id",
+      "destination": "https://kunozzz.vercel.app/series/:id",
       "permanent": true
     },
     {
       "source": "/series/:id/",
-      "destination": "https://kunozzz-bot.fun/series/:id",
+      "destination": "https://kunozzz.vercel.app/series/:id",
       "permanent": true
     },
     {
       "source": "/",
-      "destination": "https://kunozzz-bot.fun/",
+      "destination": "https://kunozzz.vercel.app/",
       "permanent": true
     },
     {
       "source": "/:path*",
-      "destination": "https://kunozzz-bot.fun/:path*",
+      "destination": "https://kunozzz.vercel.app/:path*",
       "permanent": true
     }
   ]
